@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Criptógrafo</title>
+</head>
+<body>
+    <main>
+        <img src="images/seo.png" alt="icone de um computador" class="computador">
+
+        <section class="secao-criptografar">
+
+        <textarea name="caixa-de-texto" id="caixa-de-texto" cols="60" rows="10" placeholder="Digite seu texto..."></textarea> 
+
+        <p class="alerta">⚠️ Apenas letras minúsculas e sem acento.</p>
+        <div class="botoes">
+        <button type="button" class="criptografar" onclick="criptografar()">Criptografar</button>
+        <button type="button" class="descriptografar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+    </section>
+
+    <section class="secao-descriptografar">
+            <div class="caixa-resposta">
+            <p id="resposta"></p>
+            <img class="nada-encontrado-imagem" src="images/High quality products 1 1.png" alt="um boneco olhando por um lupa">
+            <h1 class="nada-encontrado">Nenhuma mensagem encontrada</h1>
+            <p class="nada-encontrado">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button type="button" class="copiar" onclick="copiar()">Copiar o texto</button>
+        </section>
+    </main>
+    
+    <footer>
+        
+
+        
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
