@@ -170,9 +170,9 @@ div > p{
 
 @media(max-width:600px){
     #caixa-de-texto{
-        width: 14rem;
+        width: 17rem;
         height: 16rem;
-        margin-left: 8%;
+        margin-left: 5%;
         font-size: 14px;
     }
     .alerta{
@@ -189,7 +189,7 @@ div > p{
         font-size: 11px;
     }
     .secao-descriptografar > .caixa-resposta{
-        width: 16rem;
+        width: 100%;
         height: 16rem;
     }
     .copiar{
