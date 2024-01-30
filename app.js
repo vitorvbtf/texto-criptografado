@@ -2,7 +2,7 @@ const letras = ['a', 'e', 'i', 'o', 'u',]
 let textoDoUsuario = '';
 let mensagemCriptografada = '';
 let resposta = document.getElementById('resposta')
-let imagem = document.querySelector('img.nada-encontrado')
+let imagem = document.querySelector('img.nada-encontrado-imagem')
 let h1 = document.querySelector('h1.nada-encontrado')
 let p = document.querySelector('p.nada-encontrado')
 
